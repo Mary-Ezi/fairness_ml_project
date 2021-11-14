@@ -1,0 +1,13 @@
+SVC(C=1000000000.0, class_weight='balanced', max_iter=1000): Accuracy: 0.14220944376866085, F1: 0.21048346055979644, Precision: 0.11779448621553884, Recall: 0.9875835721107927, AUC: 0.5095496649948661
+RandomForestClassifier(class_weight='balanced'): Accuracy: 0.877916620590512, F1: 0.545679012345679, Precision: 0.4793926247288503, Recall: 0.6332378223495702, AUC: 0.7715963999191572
+XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None,
+              enable_categorical=False, eval_metric='auc', gamma=None,
+              gpu_id=None, importance_type=None, interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              predictor=None, random_state=None, reg_alpha=None,
+              reg_lambda=None, scale_pos_weight=7.548118737001324, seed=1234,
+              subsample=None, tree_method=None, use_label_encoder=False,
+              validate_parameters=None, ...): Accuracy: 0.833020015481588, F1: 0.5147814910025708, Precision: 0.38789346246973366, Recall: 0.7650429799426934, AUC: 0.8034819702114668
