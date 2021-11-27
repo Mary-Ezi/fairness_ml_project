@@ -1,5 +1,5 @@
-SVC(C=1000000000.0, class_weight='balanced', max_iter=1000): Accuracy: 0.5580138490119912, F1: 0.37675637056442013, Precision: 0.2727586206896552, Recall: 0.6089299461123941, AUC: 0.5763169851721641
-RandomForestClassifier(class_weight='balanced'): Accuracy: 0.7721668637054552, F1: 0.4522939504669103, Precision: 0.47852233676975947, Recall: 0.4287913779830639, AUC: 0.6487314743658288
+SVC(C=1000000000.0, class_weight='balanced', max_iter=1000): Accuracy: 0.624957206436152, F1: 0.2842208428618098, Precision: 0.24548532731376976, Recall: 0.33747090768037236, AUC: 0.521909185445721
+RandomForestClassifier(class_weight='balanced'): Accuracy: 0.782095172885998, F1: 0.0808664259927798, Precision: 0.5833333333333334, Recall: 0.04344453064391001, AUC: 0.5173295572174085
 XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
               colsample_bynode=None, colsample_bytree=None,
               enable_categorical=False, eval_metric='auc', gamma=None,
@@ -8,6 +8,6 @@ XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
               min_child_weight=None, missing=nan, monotone_constraints=None,
               n_estimators=100, n_jobs=None, num_parallel_tree=None,
               predictor=None, random_state=None, reg_alpha=None,
-              reg_lambda=None, scale_pos_weight=3.4816048448145342, seed=1234,
+              reg_lambda=None, scale_pos_weight=3.4907749077490773, seed=1234,
               subsample=None, tree_method=None, use_label_encoder=False,
-              validate_parameters=None, ...): Accuracy: 0.7596689748353319, F1: 0.47779816513761475, Precision: 0.45652173913043476, Recall: 0.5011547344110855, AUC: 0.6667392019091342
+              validate_parameters=None, ...): Accuracy: 0.7471756247860322, F1: 0.37068598210481457, Precision: 0.4111531190926276, Recall: 0.33747090768037236, AUC: 0.6003190251118753
