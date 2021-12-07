@@ -1,0 +1,30 @@
+----- PERFORMANCE METRICS -----
+--- ACCURACY SCORE ---
+0.7625813077713112
+--- PRECISION SCORE ---
+0.7267976283405314
+--- RECALL SCORE ---
+0.7625813077713112
+--- F1 SCORE ---
+0.7368335399027593
+--- CLASSIFICATION REPORT ---
+              precision    recall  f1-score   support
+
+       False       0.81      0.91      0.86      4553
+        True       0.43      0.25      0.31      1289
+
+    accuracy                           0.76      5842
+   macro avg       0.62      0.58      0.59      5842
+weighted avg       0.73      0.76      0.74      5842
+
+--- CONFUSION MATRIX ---
+[[4137  416]
+ [ 971  318]]
+--- FALSE POSITIVE RATE ---
+[0.         0.09136833 1.        ]
+--- TRUE POSITIVE RATE ---
+[0.         0.24670287 1.        ]
+--- AREA UNDER CURVE ---
+0.5776672709338184
+--- ROC AUC ---
+0.5776672709338184
